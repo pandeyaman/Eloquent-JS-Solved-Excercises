@@ -20,7 +20,7 @@ for(var i=0; i<rows; i++){
     if(i%2==0){
         for(var j=0;j<rows; j++){
             if(j%2==0)
-            process.stdout.write(' ');
+        process.stdout.write(' ');
             else 
             process.stdout.write('#');
         }
